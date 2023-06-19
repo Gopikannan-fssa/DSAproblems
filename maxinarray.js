@@ -7,5 +7,8 @@ for (let i = 0; i < a.length; i++) {
   if (max <= a[i]) {
     max = a[i];
   }
+  // } else {
+  //   max = a[i];
+  // }
+  console.log(max);
 }
-console.log(max);
